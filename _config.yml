@@ -4,19 +4,22 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
-description:
-author: John Doe
+title: Ubuntuまちがいさがし (仮称です)
+subtitle: 現在、ブログを構築中のため URLアドレス(記事やRSS)が変更される場合があります
+description: |
+  LXQt日本語関連やSnapを作成しています。
+  Ubuntu + LXQtデスクトップ ユーザーです。
+author: イトウ
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: ja
 date_format: '%Y-%m-%d'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com' and baseurl as '/child'
-url:
-baseurl:
-permalink: pretty
+url: https://ito32bit.github.io
+baseurl: /blog
+#permalink: pretty
+permalink: /:year/:title/
 
 # Pagination
 paginate: 10
@@ -79,7 +82,7 @@ plugins:
 favicon: /assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
-keywords: "Jekyll, NexT"
+keywords: "snap, lxqt"
 
 # Set rss to false to disable feed link.
 # Leave rss as empty to use site's feed link.
@@ -88,9 +91,10 @@ rss:
 
 # Specify the date when the site was setup
 #since: 2015
+since: 2019
 
 # icon between year and author @Footer
-authoricon: heart
+##authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: true
@@ -106,6 +110,7 @@ canonical: true
 
 # Change headers hierarchy on site-subtitle (will be main site description) and on all post/pages titles for better SEO-optimization.
 seo: false
+##seo: true
 
 # If true, will add site-subtitle to index page, added in jekyll config.
 # subtitle: Subtitle
@@ -118,8 +123,9 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
+  about: /about/
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
@@ -142,8 +148,6 @@ menu_icons:
   archives: archive
   sitemap: sitemap
   commonweal: heartbeat
-
-
 
 
 # ---------------------------------------------------------------
@@ -203,8 +207,6 @@ font:
     size:
 
 
-
-
 # ---------------------------------------------------------------
 # Sidebar Settings
 # ---------------------------------------------------------------
@@ -214,8 +216,9 @@ font:
 # Key is the link label showing to end users.
 # Value is the target link (E.g. GitHub: https://github.com/iissnan)
 #social:
+social:
   #LinkLabel: Link
-
+  GitHub: https://github.com/ito32bit
 
 # Social Links Icons
 # Icon Mapping:
@@ -311,15 +314,19 @@ auto_excerpt:
 post_meta:
   item_text: true
   created_at: true
-  updated_at: false
+##  updated_at: false
+  updated_at: true
   categories: true
 
 # Post wordcount display settings
 post_wordcount:
   item_text: true
-  wordcount: false
-  min2read: false
-  separated_meta: true
+  ##wordcount: false
+  wordcount: true
+  ##min2read: false
+  min2read: true
+  ##separated_meta: true
+  separated_meta: false
 
 # Wechat Subscriber
 #wechat_subscriber:
@@ -332,7 +339,6 @@ post_copyright:
   enable: false
   license: CC BY-NC-SA 3.0
   license_url: https://creativecommons.org/licenses/by-nc-sa/3.0/
-
 
 
 # ---------------------------------------------------------------
@@ -380,8 +386,9 @@ han: false
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  #enable: false
+  enable: true
+  shortname: ito32bit-github-io
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
