@@ -23,7 +23,7 @@ tags: lxqt lubuntu debian デスクトップ環境 翻訳
 
 LXQtプロジェクト
 
-- LXQtデスクトップ環境
+- LXQt デスクトップ環境
 - PCManFM-Qt ファイルマネージャー
 - LXImage-Qt 画像ビューアー
 - Qterminal 端末

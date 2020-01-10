@@ -1,14 +1,15 @@
 ---
-title: Snap版 lxqt-organizer-snap
+title: Snap版 LXQt Organizer リリース
 date: 2020-01-08
+updated: 2020-01-09
 categories: snap
 tags: snapcraft
 ---
 
-lxqt-organizer-snapの Snapパッケージを作成中です。非公式なパッケージです。  
+LXQt-Organizer の Snapパッケージを公開しています。非公式なパッケージです。  
 開発中の最新版を使用できるように、Snapパッケージを作成しています。
 
-「lxqt-organizer-snap」は LXQtプロジェクトが開発している 個人情報管理ツールです。  
+LXQt-Organizer は LXQtプロジェクトが開発している 個人情報管理ツールです。予定や住所録などを管理できます。  
 2019年11月に開発が始まりました。
 実用的になるのは先になるかも知れませんが、少しずつ機能が追加されています。
 その進歩状況を Snapパッケージで手軽に体験できます。
@@ -22,4 +23,4 @@ lxqt-organizer-snapの Snapパッケージを作成中です。非公式なパ�
 
 ## 既知の問題・今後の課題
 
-* Fcitx以外では日本語入力できない
+* Fcitx以外の IMでは日本語入力できない
