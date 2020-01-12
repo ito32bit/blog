@@ -1,10 +1,8 @@
 ---
 title: Snap版 LXImage-Qt
 date: 2019-12-28 00:00:00
-categories:
-- snap
-tags:
-- snapcraft
+categories: Snap
+tags: Snapcraft
 ---
 
 LXImage-Qtの Snapパッケージを作成中です。非公式なパッケージです。

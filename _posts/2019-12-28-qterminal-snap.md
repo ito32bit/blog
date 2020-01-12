@@ -2,8 +2,8 @@
 title: Snap版 Qterminal リリース
 date: 2019-12-28
 updated: 2020-01-10
-categories: snap
-tags: snapcraft
+categories: Snap
+tags: Snapcraft
 ---
 
 Qterminalの Snapパッケージを公開しています。非公式なパッケージです。

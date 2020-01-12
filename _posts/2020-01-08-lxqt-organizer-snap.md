@@ -2,8 +2,8 @@
 title: Snap版 LXQt Organizer リリース
 date: 2020-01-08
 updated: 2020-01-09
-categories: snap
-tags: snapcraft
+categories: Snap
+tags: Snapcraft
 ---
 
 LXQt-Organizer の Snapパッケージを公開しています。非公式なパッケージです。  

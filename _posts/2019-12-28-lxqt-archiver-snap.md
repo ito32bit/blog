@@ -1,10 +1,8 @@
 ---
 title: Snap版 LXQt-Archiver リリース
 date: 2019-12-28 00:00:00
-categories:
-- snap
-tags:
-- snapcraft
+categories: Snap
+tags: Snapcraft
 ---
 
 LXQt-Archiverの Snapパッケージを公開しています。非公式なパッケージです。

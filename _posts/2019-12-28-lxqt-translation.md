@@ -1,8 +1,9 @@
 ---
 title: LXQtデスクトップ環境の翻訳
 date: 2019-12-28
+updated: 2020-01-11
 categories: 翻訳
-tags: lxqt lubuntu debian デスクトップ環境 翻訳
+tags: 翻訳 LXQtデスクトップ環境 Lubuntu Debian
 ---
 
 私は、LXQtデスクトップ環境の翻訳をしています。
@@ -16,13 +17,11 @@ tags: lxqt lubuntu debian デスクトップ環境 翻訳
 既に翻訳されている部分についても、より良くするために少しずつ変更しています。  
 多くの人が、パッと見て 考えたり悩んだりせずに 軽快に 操作できるような日本語の表示にしたいと思っています。
 
-<https://github.com/ito32bit/lxqt-ja/wiki>  
-<https://github.com/ito32bit/lxqt-ja>
+LXQtを使用していて、日本語で気になる部分もあるかと思います。その時は、遠慮なくコメント下さい。ここのページでも Weblateでも Githubでも、どちらへのコメントでも構いません。
 
 ## 翻訳に参加しているソフトウェア
 
-LXQtプロジェクト
-
+### LXQtプロジェクト
 - LXQt デスクトップ環境
 - PCManFM-Qt ファイルマネージャー
 - LXImage-Qt 画像ビューアー
@@ -34,22 +33,22 @@ LXQtプロジェクト
 - ComptonConf Comptonの設定ユーティリティー
 - pavucontrol-qt PulseAudio音量調節
 
+<https://github.com/ito32bit/lxqt-ja/wiki>  
+
 [^qps]: Qpsにはシステムに関する専門用語が多く、知識不足のため未翻訳の部分があります。
 
-LXQt関連
+### LXQt関連
 - FeatherNotes
 - FeatherPad
 - Kvantum [^k]
 
 [^k]: Kvantumにはプログラミングに関する専門用語が多く、知識不足のため未翻訳の部分があります。わかる方 いらっしゃいませんか？
 
-Lubuntu関連
-
+### Lubuntu関連
 - nm-tray NetworkManagerフロントエンド (タスクトレイ)
 - Qlipper クリップボード履歴 (タスクトレイ)
 
-Debian関連
-
+### Debian関連
 - lxqt(29) パッケージ説明文  <https://packages.debian.org/bullseye/lxqt>
 - task-lxqt-desktop(3.58) パッケージ説明文 <https://packages.debian.org/bullseye/task-lxqt-desktop>
 

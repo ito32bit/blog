@@ -1,10 +1,8 @@
 ---
 title: Snapパッケージのトラブルシューティング
 date: 2019-12-28 00:00:00
-categories:
-- snap
-tags:
-- snapcraft
+categories: Snap
+tags: Snapcraft
 ---
 
 Snapのインストール時や更新時にエラーが出ることがあります。その時の対応策です。

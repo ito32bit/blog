@@ -2,8 +2,8 @@
 title: Snapパッケージとは
 date: 2019-12-28 00:00:00
 updated: 2019-12-30 00:00:00
-categories: snap
-tags: snapcraft
+categories: Snap
+tags: Snapcraft
 ---
 
 Snapパッケージなら、インストールしたいアプリケーションが 他のディストリビューションにあって 自分の使用しているディストリビューションにはない、ということがありません。
