@@ -24,7 +24,7 @@ Ubuntu等、snapd がインストールされている環境であれば、次�
 ```
 
 Lubuntu 等は snapd のインストールが必要です。`sudo apt install snapd`  
-snapd のインストール: <https://snapcraft.io/docs/installing-snapd>  
+関連ページ: [Snapパッケージとは]({{ site.baseurl }}{% post_url 2019-12-28-snap-package %})
 
 この方法が 下記の方法に比べて、 簡単に 日本語表示を新しく出来ると思います。  
 
