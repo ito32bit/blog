@@ -3,30 +3,30 @@ title: LXQtを最新の日本語表示にする
 date: 2020-01-13
 updated: 2020-01-13
 categories: LXQtデスクトップ環境
-tags: LXQtデスクトップ環境 日本語 翻訳
+tags: LXQtデスクトップ環境 翻訳
 ---
-LXQtデスクトップ環境に 最新の日本語訳を 取り入れる方法です。  
+LXQtデスクトップ環境に 最新の日本語訳を 適用する方法です。  
 ４つ方法を紹介します。  
 
 ## Snap版 LXQt 言語パック をインストールする
 
 <https://snapcraft.io/lxqt-l10n-snap>  
 
-Snapパッケージを作成しました。
+Snapパッケージを作成しました。[^ln]
 Ubuntu等、snapd がインストールされている環境であれば、次の方法でこの言語パックをインストールできます。  
 端末の場合、次の２つのコマンドを実行後に再ログインします。  
+
+[^ln]: lxqt-l10n-snap (Snap版LXQt言語パック)は、2020年１月現在、作成中のため 最新の日本語が表示されない問題があります。(デスクトップマネージャー、ファイルマネージャー等)
 
 ```bash
     sudo snap install lxqt-l10n-snap --edge 
     /snap/lxqt-l10n-snap/current/setup
 ```
 
-こちらの方法が 下記の方法に比べて、 簡単に 日本語表示を新しく 出来ると思います。  
 Lubuntu 等は snapd のインストールが必要です。`sudo apt install snapd`  
 snapd のインストール: <https://snapcraft.io/docs/installing-snapd>  
 
-※2020年１月現在、この言語パックは作成中のため 最新の日本語が表示されない問題があります。
-(デスクトップマネージャー、ファイルマネージャー等)
+この方法が 下記の方法に比べて、 簡単に 日本語表示を新しく出来ると思います。  
 
 ## Githubから 開発中のLXQtをダウンロードしてビルドする  
 
@@ -36,7 +36,7 @@ LXQtの Wikiに方法が書かれています。
 git clone して ビルドします。  
 
 ビルド環境が必要です。詳しく書いてあります。ArchLinuxだと 簡単のようです。  
-ビルドの実例: [[LXQtをソースからビルドする]]  
+ビルドの実例: [LXQtをソースからビルドする]({{ site.baseurl }}{% page_url 2019-08-19-building-lxqt-source %})  
 
 ※Weblateに登録された翻訳が、Githubに取り込まれる(マージ)までに タイムラグがあります。
 間隔は不定期で、数日から １ヶ月程度遅れていると思います。
