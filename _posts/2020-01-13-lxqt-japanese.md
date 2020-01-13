@@ -28,18 +28,16 @@ snapd のインストール: <https://snapcraft.io/docs/installing-snapd>
 
 この方法が 下記の方法に比べて、 簡単に 日本語表示を新しく出来ると思います。  
 
-## Githubから 開発中のLXQtをダウンロードしてビルドする  
+## 日本語翻訳ファイルセット(zipファイル)をダウンロードする  
 
-<https://github.com/lxqt/lxqt/wiki/Building-from-source>  
+<https://github.com/ito32bit/lxqt-ja>  
 
-LXQtの Wikiに方法が書かれています。  
-git clone して ビルドします。  
+緑色のボタン「Clone or download」をクリック。zipファイルを ダウンロードします。  
+使用方法は リンク先の下部に あります。  
 
-ビルド環境が必要です。詳しく書いてあります。  
-ビルドの実例: [LXQtをソースからビルドする]({{ site.baseurl }}{% post_url 2019-08-19-building-lxqt-source %})  
-
-※Weblateに登録された翻訳が、Githubに取り込まれる(マージ)までに タイムラグがあります。
-間隔は不定期で、数日から １ヶ月程度遅れていると思います。
+日本語の表示確認に使用している 日本語翻訳ファイルを セットにして ダウンロード出来るようにしました。  
+Ubuntu 18.04 LXQt 0.14 で表示確認しています。
+他の ディストリビューションでも 使用できると思います。
 
 ## Weblateから翻訳ファイルをダウンロードする  
 
@@ -56,15 +54,17 @@ git clone して ビルドします。
 ひとつ ひとつでも 日本語に出来ますが、すべてとなると 40以上あります。  
 この方法では アプリケーションメニューの中の 名称(デスクトップエントリ)は 変更できません。
 
-## 日本語翻訳ファイルセット(zipファイル)をダウンロードする  
+## Githubから 開発中のLXQtをダウンロードしてビルドする  
 
-<https://github.com/ito32bit/lxqt-ja>  
+<https://github.com/lxqt/lxqt/wiki/Building-from-source>  
 
-緑色のボタン「Clone or download」をクリック。zipファイルを ダウンロードします。  
-使用方法は リンク先の下部に あります。  
+LXQtの Wikiに方法が書かれています。  
+git clone して ビルドします。  
 
-日本語の表示確認に使用している 日本語翻訳ファイルを セットにして ダウンロード出来るようにしました。  
-Ubuntu 18.04 LXQt 0.14 で表示確認しています。
-他の ディストリビューションでも 使用できると思います。
+ビルド環境が必要です。詳しく書いてあります。  
+ビルドの実例: [LXQtをソースからビルドする]({{ site.baseurl }}{% post_url 2019-08-19-building-lxqt-source %})  
+
+※Weblateに登録された翻訳が、Githubに取り込まれる(マージ)までに タイムラグがあります。
+間隔は不定期で、数日から １ヶ月程度遅れていると思います。
 
 ***
