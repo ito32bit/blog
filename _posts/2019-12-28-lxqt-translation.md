@@ -7,7 +7,7 @@ tags: 翻訳 LXQtデスクトップ環境 Lubuntu Debian
 ---
 
 私は、LXQtデスクトップ環境の翻訳をしています。  
-この記事を読んだのを きっかけに翻訳を始めました。
+この技術評論社の記事を読んだのを きっかけに翻訳を始めました。
 
 第552回　デスクトップ環境の2018-2019年  
 <https://gihyo.jp/admin/serial/01/ubuntu-recipe/0552?page=2>
