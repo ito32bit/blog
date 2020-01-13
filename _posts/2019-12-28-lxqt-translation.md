@@ -1,7 +1,7 @@
 ---
 title: LXQtデスクトップ環境の翻訳
 date: 2019-12-28
-updated: 2020-01-11
+updated: 2020-01-12
 categories: 翻訳
 tags: 翻訳 LXQtデスクトップ環境 Lubuntu Debian
 ---
@@ -17,6 +17,11 @@ tags: 翻訳 LXQtデスクトップ環境 Lubuntu Debian
 多くの人が、パッと見て 考えたり悩んだりせずに 軽快に 操作できるような日本語の表示にしたいと思っています。
 
 LXQtを使用していて、日本語で気になる部分もあるかと思います。その時は、遠慮なくコメント下さい。ここのページでも Weblateでも Githubでも、どちらへのコメントでも構いません。
+
+**2020年１月**  
+技術評論社サイトの いくやさんの記事に載りました。  
+「第601回　デスクトップ環境の2019-2020年」 <https://gihyo.jp/admin/serial/01/ubuntu-recipe/0601?page=2>  
+いくやさんのブログにも <https://blog.goo.ne.jp/ikunya/e/f812563dd2e30fa48f73b3845f133157>  
 
 ## 翻訳に参加しているソフトウェア
 
