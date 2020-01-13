@@ -3,7 +3,7 @@ title: LXQtデスクトップ環境の翻訳
 date: 2019-12-28
 updated: 2020-01-12
 categories: 翻訳
-tags: 翻訳 LXQtデスクトップ環境 Lubuntu Debian
+tags: LXQt翻訳 LXQtデスクトップ環境 Lubuntu Debian
 ---
 
 私は、LXQtデスクトップ環境の翻訳をしています。  

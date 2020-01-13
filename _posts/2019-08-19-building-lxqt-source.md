@@ -3,7 +3,7 @@ title: LXQtをソースからビルドする (Building from source)
 date: 2019-08-19
 updated: 2019-10-19
 categories: ビルド
-tags: ビルド LXQtデスクトップ環境 Lubuntu
+tags: LXQtビルド LXQtデスクトップ環境 Lubuntu
 ---
 LXQtデスクトップ環境を ソースから ビルドして インストールします。  
 LXQt の他に 関連アプリケーションも 一気に ビルドします。  

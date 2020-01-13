@@ -3,7 +3,7 @@ title: LXQtを最新の日本語表示にする
 date: 2020-01-13
 updated: 2020-01-13
 categories: LXQtデスクトップ環境
-tags: LXQtデスクトップ環境 翻訳
+tags: LXQtデスクトップ環境 LXQt翻訳
 ---
 LXQtデスクトップ環境に 最新の日本語訳を 適用する方法です。  
 ４つ方法を紹介します。  
