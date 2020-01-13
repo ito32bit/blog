@@ -52,4 +52,9 @@ LXQtを使用していて、日本語で気になる部分もあるかと思い�
 - lxqt(29) パッケージ説明文  <https://packages.debian.org/bullseye/lxqt>
 - task-lxqt-desktop(3.58) パッケージ説明文 <https://packages.debian.org/bullseye/task-lxqt-desktop>
 
+## 関連ページ
+
+- [LXQtを最新の日本語表示にする]({{ site.baseurl }}{% post_url 2020-01-13-lxqt-japanese %})
+
+
 ***
