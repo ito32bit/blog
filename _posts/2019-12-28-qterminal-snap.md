@@ -44,3 +44,7 @@ GUIの Ubuntuソフトウエア(gnome-software)やスナップストア(snap-sto
   回避策: `export -n QTCHOOSER_NO_GLOBAL_DIR`
 
 私自身も端末は このSnapパッケージ版 Qterminalを日常的に使用していますので、かなり問題は解消してきたと思います。
+
+## 関連ページ
+
+- [Snapパッケージとは]({{ site.baseurl }}{% post_url 2019-12-28-snap-package %})

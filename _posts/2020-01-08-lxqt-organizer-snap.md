@@ -24,3 +24,7 @@ LXQt-Organizer は LXQtプロジェクトが開発している 個人情報管�
 ## 既知の問題・今後の課題
 
 * Fcitx以外の IMでは日本語入力できない
+
+## 関連ページ
+
+- [Snapパッケージとは]({{ site.baseurl }}{% post_url 2019-12-28-snap-package %})

@@ -24,3 +24,7 @@ LXImage-Qtの Snapパッケージを作成中です。非公式なパッケー�
 ## 既知の問題・今後の課題
 
 * ビルド時に Manual Review になるため公開できない。
+
+## 関連ページ
+
+- [Snapパッケージとは]({{ site.baseurl }}{% post_url 2019-12-28-snap-package %})
