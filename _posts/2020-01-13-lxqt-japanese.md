@@ -36,7 +36,7 @@ LXQtの Wikiに方法が書かれています。
 git clone して ビルドします。  
 
 ビルド環境が必要です。詳しく書いてあります。ArchLinuxだと 簡単のようです。  
-ビルドの実例: [LXQtをソースからビルドする]({{ site.baseurl }}{% page_url 2019-08-19-building-lxqt-source %})  
+ビルドの実例: [LXQtをソースからビルドする]({{ site.baseurl }}{% post_url 2019-08-19-building-lxqt-source %})  
 
 ※Weblateに登録された翻訳が、Githubに取り込まれる(マージ)までに タイムラグがあります。
 間隔は不定期で、数日から １ヶ月程度遅れていると思います。
