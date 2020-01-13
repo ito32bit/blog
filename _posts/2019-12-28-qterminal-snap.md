@@ -6,13 +6,12 @@ categories: Snap
 tags: Snapcraft
 ---
 
-Qterminalの Snapパッケージを公開しています。非公式なパッケージです。
-
-開発中の最新版を使用できるように、Snapパッケージを作成しています。
-
+Qterminalの Snapパッケージを公開しています。非公式なパッケージです。  
 「Qterminal」は LXQtプロジェクトが開発している ターミナルエミュレーターです。
 ドロップダウン式ターミナルとしても使用できます。
 日本語表示にも対応しています。
+
+開発中の最新版を使用できるように、Snapパッケージを作成しています。
 
 ![screenshot]({{ site.baseurl }}/images/qterminal-snap.jpg)
 
