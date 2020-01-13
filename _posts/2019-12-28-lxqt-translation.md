@@ -24,6 +24,7 @@ LXQtを使用していて、日本語で気になる部分もあるかと思い�
 「第601回　デスクトップ環境の2019-2020年」 <https://gihyo.jp/admin/serial/01/ubuntu-recipe/0601?page=2>  
 いくやさんのブログにも <https://blog.goo.ne.jp/ikunya/e/f812563dd2e30fa48f73b3845f133157>  
 
+LXQtデスクトップ環境のスクリーンショット:  
 ![LXQt screenshot]({{ site.baseurl }}/images/lxqt-2020-01.png)
 
 ## 翻訳に参加しているソフトウェア
