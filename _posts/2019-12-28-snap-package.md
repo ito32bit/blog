@@ -1,7 +1,7 @@
 ---
 title: Snapパッケージとは
 date: 2019-12-28 00:00:00
-updated: 2020-01-13
+updated: 2020-01-20
 categories: Snap
 tags: Snapcraft
 ---
@@ -40,10 +40,13 @@ Snapパッケージは、他のアプリケーションやライブラリと独�
 ## Snapパッケージのインストール方法
 
 Snapパッケージは、
-端末からインストールする方法以外に、GUIの Ubuntuソフトウエア(gnome-software)やスナップストア(snap-store)や KDE Discover からもインストールできます。
+端末からインストールする方法以外に、GUIの Gnomeソフトウエア(gnome-software)やスナップストア(snap-store)や KDE Discover からもインストールできます。
 
 これらでソフトを探すことも出来ます。
 まだ公式サイトでも検索できます。  
 <https://snapcraft.io/store>
+
+スナップストア(snap-store) そのものがインストールがまだなら `sudo snap install snap-store ` でインストールできます。  
+<https://snapcraft.io/docs/installing-snap-store-app>
 
 ***
