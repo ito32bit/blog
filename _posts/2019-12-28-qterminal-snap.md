@@ -17,6 +17,7 @@ Qterminalの Snapパッケージを公開しています。非公式なパッケ
 
 ## インストール
 
+Snap Store で公開しています。  
 <https://snapcraft.io/qterminal-snap>
 
 GUIの Ubuntuソフトウエア(gnome-software)やスナップストア(snap-store)や KDE Discover からもインストールできます。

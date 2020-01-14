@@ -13,6 +13,7 @@ ScreenGrabの Snapパッケージを公開しています。非公式なパッ�
 
 ## インストール
 
+Snap Store で公開しています。  
 <https://snapcraft.io/screengrab-snap>
 
 GUIの ソフトウエアセンター(gnome-software)やスナップストア(snap-store)や KDE Discover からもインストールできます。

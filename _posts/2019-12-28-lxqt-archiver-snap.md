@@ -14,6 +14,7 @@ LXQt-Archiverの Snapパッケージを公開しています。非公式なパ�
 
 ## インストール
 
+Snap Store で公開しています。  
 <https://snapcraft.io/lxqt-archiver-snap>
 
 GUIの ソフトウエアセンター(gnome-software)やスナップストア(snap-store)や KDE Discover からもインストールできます。

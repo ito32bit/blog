@@ -20,6 +20,7 @@ LXQt-Organizer は LXQtプロジェクトが開発している 個人情報管�
 
 ## インストール
 
+Snap Store で公開しています。  
 <https://snapcraft.io/lxqt-organizer-snap>
 
 ## 既知の問題・今後の課題
