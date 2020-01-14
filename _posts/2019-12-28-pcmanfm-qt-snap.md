@@ -2,7 +2,7 @@
 title: Snap版 PCManFM-Qt
 date: 2019-12-28 00:00:00
 categories: Snap
-tags: Snapcraft
+tags: Snap作成
 ---
 
 PCManFM-Qtの Snapパッケージを作成中です。非公式なパッケージです。  
