@@ -1,7 +1,7 @@
 ---
 title: Snapパッケージのトラブルシューティング
 date: 2019-12-28 00:00:00
-categories: Snap
+categories: Snap説明
 tags: Snap作成
 ---
 

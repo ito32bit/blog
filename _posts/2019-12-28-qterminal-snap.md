@@ -2,7 +2,7 @@
 title: Snap版 Qterminal リリース
 date: 2019-12-28
 updated: 2020-01-10
-categories: Snap
+categories: Snapリリース
 tags: Snap作成
 ---
 

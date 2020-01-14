@@ -2,7 +2,7 @@
 title: Snap版 LXQt Organizer リリース
 date: 2020-01-08
 updated: 2020-01-09
-categories: Snap
+categories: Snapリリース
 tags: Snap作成
 ---
 
