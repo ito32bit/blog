@@ -9,13 +9,14 @@ Snapのインストール時や更新時にエラーが出ることがありま�
 
 ## Snapが 更新後(refresh)、最初の起動でエラーが出る
 
-アイコンをクリックして起動できない時、端末から起動すると エラーを見ることが出きます。
+アイコンをクリックして起動できない時、端末から起動すると エラー内容を見ることが出きます。
 
 Error: `バスエラー (コアダンプ)`  
 Error: `Bus error (core dumped)`
 
 回避方法：アンインストールしてから インストールします。  
 アンインストールは purge オプションを付けます。
+（注意：そのアプリケーションの設定メニューなどで変更した内容は消えて初期状態に戻ります）
 もしアプリケーションが起動中の場合は、終了してから アンインストールします。
 
 ```bash
@@ -29,6 +30,7 @@ Error 例: `cannot perform the following tasks: Fetch and check assertions for s
 
 回避方法：更新ではなく、先にアンインストールしてから インストールします。  
 アンインストールは purge オプションを付けます。
+（注意：そのアプリケーションの設定メニューなどで変更した内容は消えて初期状態に戻ります）
 もしアプリケーションが起動中の場合は、終了してから アンインストールします。
 
 ```bash
@@ -53,3 +55,5 @@ error: cannot communicate with server: Post http://localhost/v2/snaps:
 ```bash
 sudo systemctl restart snapd.service
 ```
+
+***
