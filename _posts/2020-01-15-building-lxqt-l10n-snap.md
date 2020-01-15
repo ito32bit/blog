@@ -48,7 +48,7 @@ Lubuntu 18.04 LXQt 0.14 (ppa)
 
 どのように Snapパッケージをビルドしているか紹介します。
 
-ビルド状況は 次のページで見られます: [![Snap Status](https://build.snapcraft.io/badge/ito32bit/lxqt-l10n-snap-packaging.svg)](https://build.snapcraft.io/user/ito32bit/lxqt-l10n-snap-packaging)  
+ビルド状況は 次のページで見られます:  
 <https://build.snapcraft.io/user/ito32bit/lxqt-l10n-snap-packaging>
 
 ソース snapcraft.yaml ファイルは次のリンク先で公開しています。  
@@ -57,7 +57,7 @@ Github : <https://github.com/ito32bit/lxqt-l10n-snap-packaging>
 Githubの関連リポジトリが更新(commit)があると、build.snapcraft.ioサイト内で 自動でビルドされます。
 関連リポジトリのリストは、snapcraft.yaml ファイルの partsの `source:` です。  
 
-LXQtの各リポジトリを Git clone して、bashスクリプトで翻訳ファイルとデスクトップエントリのファイルを処理しています。  
+LXQtの各リポジトリを git clone して、bashスクリプトで翻訳ファイルとデスクトップエントリのファイルを処理しています。  
 ソースからビルドする際に使用する cmake や make コマンドは使用していません。 [^cm]
 
 [^cm]: 自分で 言語パック用 CMakeLists.txt を用意すると良いのでしょうけれども、私には CMakeLists.txt の書式などが分からず作れません。それで独自の bashスクリプトを書きました。
