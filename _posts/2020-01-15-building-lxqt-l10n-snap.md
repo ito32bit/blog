@@ -36,7 +36,7 @@ LXQtデスクトップ環境は、ツールキットQt5を使用して開発さ�
 
 LXQt設定の セッションの LXQtモジュール名については、環境変数 `XDG_CONFIG_DIRS` に Snapのディレクトリを追加して `*.desktop` を参照するようにしています。
 
-LXQt設定 → セッションのスクリーンショット　環境変数に設定を確認できる:  
+LXQt設定 → セッションのスクリーンショット　環境変数の設定を確認できる:  
 ![session screenshot]({{ site.baseurl }}/images/lxqt-config-session_ja_screen-2020-01.jpg)
 
 ## 動作確認している環境
@@ -47,7 +47,7 @@ Lubuntu 18.04 LXQt 0.14 (ppa)
 ## ビルド
 
 どのように Snapパッケージをビルドしているか紹介します。  
-ビルド状況は 次のページで見られます:  
+ビルド状況は 次のページで見られます。  
 <https://build.snapcraft.io/user/ito32bit/lxqt-l10n-snap-packaging>
 
 ソース snapcraft.yaml ファイルは次のリンク先で公開しています。  
