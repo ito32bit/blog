@@ -48,7 +48,7 @@ Lubuntu 18.04 LXQt 0.14 (ppa)
 
 どのように Snapパッケージをビルドしているか紹介します。
 
-ビルド状況は 次のページで見られます: 
+ビルド状況:
 [![Snap Status](https://build.snapcraft.io/badge/ito32bit/lxqt-l10n-snap-packaging.svg)](https://build.snapcraft.io/user/ito32bit/lxqt-l10n-snap-packaging)
 
 ソース snapcraft.yaml ファイルは次のリンク先で公開しています。  
