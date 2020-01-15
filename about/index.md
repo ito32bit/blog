@@ -13,7 +13,7 @@ type: about
 
 さて現代に戻り・・・
 2019年春からは、Ubuntu 18.04に 軽量なLXQtをインストールして使用しています。
-<small>実は いまだに 32bit ノートパソコンなので Lubuntu 19.10がインストールできません ^^; </small>
+<small>実は いまだに 15年前の古いノートパソコン（32bit）なので Lubuntu 19.10がインストールできません ^^; </small>
 
 2020年 1月　イトウ  
 Github: <https://github.com/ito32bit/>  
