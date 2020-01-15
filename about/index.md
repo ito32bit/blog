@@ -9,7 +9,7 @@ type: about
 私は、Ubuntu を バージョン14.04 から使い始めて、アップグレードしながら 16.04 そして 18.04 と使用しています。
 他のディストリビューションや Ubuntuフレーバーをパーティションを分けたハードディスクにインストールすることもありましたが、Ubuntuを使い続けています。  
 もっと昔は、人に薦められるまま FreeBSDをインストールしてWebサーバーを管理していたこともありました。
-もっとそれ以前は fedora.jp ドメインが立ち上がった頃、Fedora Project に参加していて Fedora Core を使用していました。
+もっとそれ以前は fedora.jp ドメインが立ち上がった時に、Fedora Project に参加していて Fedora Core を使用していました。
 
 さて現代に戻り・・・
 2019年春からは、Ubuntu 18.04に 軽量なLXQtをインストールして使用しています。
@@ -17,4 +17,3 @@ type: about
 
 2020年 1月　イトウ  
 Github: <https://github.com/ito32bit/>  
-ブログ: <https://ito32bit.github.io/blog/>
