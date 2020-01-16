@@ -50,9 +50,9 @@ hcb_user = {
     add_image:'画像を追加する (add image)',
     are_you_sure:'Do you want to flag this comment as inappropriate?',
 
-    reply:'reply',
+    reply:'返信 (reply)',
     flag:'flag',
-    like:'like',
+    like:'いいね (like)',
 
     /* dates */
     days_ago:'日前 (days ago)',
