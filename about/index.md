@@ -13,7 +13,7 @@ type: about
 
 さて現代に戻り・・・
 2019年春からは、Ubuntu 18.04に 軽量なLXQtをインストールして使用しています。
-<small>実は いまだに 15年前の古いノートパソコン（32bit）なので Lubuntu 19.10がインストールできません ^^; </small>
+<small>実は いまだに 2005年発売の古いノートパソコン（32bit）なので Lubuntu 19.10がインストールできません ^^; </small>
 
 2020年 1月　イトウ  
 Github: <https://github.com/ito32bit/>  
@@ -48,7 +48,7 @@ hcb_user = {
     mod_label:'(モデレーター / mod)',
     subscribe:'返信をメール受信する / email me replies',
     add_image:'画像を追加する / add image',
-    are_you_sure:'Do you want to flag this comment as inappropriate?',
+    are_you_sure:'このコメントに不適切としてフラグを付けますか？ / Do you want to flag this comment as inappropriate?',
 
     reply:'返信 / reply',
     flag:'flag',
