@@ -56,9 +56,9 @@ hcb_user = {
     add_image:'add image',
     are_you_sure:'Do you want to flag this comment as inappropriate?',
 
-    reply:'<img src="https://www.htmlcommentbox.com/static/images/reply.png"/> reply',
-    flag:'<img src="https://www.htmlcommentbox.com/static/images/flag.png"/> flag',
-    like:'<img src="https://www.htmlcommentbox.com/static/images/like.png"/> like',
+    reply:'reply',
+    flag:'flag',
+    like:'like',
 
     /* dates */
     days_ago:'days ago',
