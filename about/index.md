@@ -33,9 +33,9 @@ hcb_user = {
     submit : 'コメントする (Comment)',
     logout_link : '<img title="log out" src="https://www.htmlcommentbox.com/static/images/door_out.png" alt="[logout]" class="hcb-icon hcb-door-out"/>',
     admin_link : '<img src="https://www.htmlcommentbox.com/static/images/door_in.png" alt="[login]" class="hcb-icon hcb-door-in"/>',
-    no_comments_msg: 'No one has commented yet. Be the first!',
+    no_comments_msg: 'まだコメントがありません。最初のコメントをどうぞ！ (No one has commented yet. Be the first!)',
     add:'Add your comment',
-    again: 'Post another comment',
+    again: '続けてコメントする (Post another comment)',
     rss:'<img src="https://www.htmlcommentbox.com/static/images/feed.png" class="hcb-icon" alt="rss"/> ',
     said:'さんのコメント (said):',
     prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
@@ -44,10 +44,10 @@ hcb_user = {
     to:'to',
     website_label:'website (optional)',
     email_label:'email',
-    anonymous:'Anonymous',
+    anonymous:'名前未記入 (Anonymous)',
     mod_label:'(mod)',
     subscribe:'email me replies',
-    add_image:'add image',
+    add_image:'画像を追加する (add image)',
     are_you_sure:'Do you want to flag this comment as inappropriate?',
 
     reply:'reply',
@@ -55,9 +55,9 @@ hcb_user = {
     like:'like',
 
     /* dates */
-    days_ago:'days ago',
-    hours_ago:'hours ago',
-    minutes_ago:'minutes ago',
+    days_ago:'日前 (days ago)',
+    hours_ago:'時間前 (hours ago)',
+    minutes_ago:'分前 (minutes ago)',
     within_the_last_minute:'within the last minute',
 
     msg_thankyou:'Thank you for commenting!',
