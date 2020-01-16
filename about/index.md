@@ -36,7 +36,9 @@ hcb_user = {
     no_comments_msg: 'まだコメントがありません。最初のコメントをどうぞ！ / No one has commented yet. Be the first!',
     add:'Add your comment',
     again: '続けてコメントする / Post another comment',
-    rss:'<img src="https://www.htmlcommentbox.com/static/images/feed.png" class="hcb-icon" alt="rss"/> ',
+/*    rss:'<img src="https://www.htmlcommentbox.com/static/images/feed.png" class="hcb-icon" alt="rss"/> ',
+*/
+    rss:'RSS',
     said:'さん発言 / said:',
     prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
     next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
@@ -51,7 +53,7 @@ hcb_user = {
     are_you_sure:'このコメントに不適切としてフラグを付けますか？ / Do you want to flag this comment as inappropriate?',
 
     reply:'返信 / reply',
-    flag:'flag',
+    flag:'フラグ / flag',
     like:'いいね / like',
 
     /* dates */
