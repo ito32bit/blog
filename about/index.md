@@ -45,7 +45,7 @@ hcb_user = {
     website_label:'website (optional)',
     email_label:'email',
     anonymous:'匿名 (Anonymous)',
-    mod_label:'(mod)',
+    mod_label:'(モデレーター mod)',
     subscribe:'email me replies',
     add_image:'画像を追加する (add image)',
     are_you_sure:'Do you want to flag this comment as inappropriate?',
