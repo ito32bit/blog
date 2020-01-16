@@ -44,7 +44,7 @@ hcb_user = {
     to:'to',
     website_label:'website (optional)',
     email_label:'email',
-    anonymous:'名前未記入 (Anonymous)',
+    anonymous:'匿名 (Anonymous)',
     mod_label:'(mod)',
     subscribe:'email me replies',
     add_image:'画像を追加する (add image)',
@@ -60,8 +60,8 @@ hcb_user = {
     minutes_ago:'分前 (minutes ago)',
     within_the_last_minute:'within the last minute',
 
-    msg_thankyou:'Thank you for commenting!',
-    msg_approval:'(this comment is not published until approved)',
+    msg_thankyou:'コメントして頂きありがとうございます！ (Thank you for commenting!)',
+    msg_approval:'このコメントは承認されるまで公開されません (this comment is not published until approved)',
     msg_approval_required:'Thank you for commenting! Your comment will appear once approved by a moderator.',
 
     err_bad_html:'Your comment contained bad html.',
