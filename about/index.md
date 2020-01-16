@@ -58,7 +58,7 @@ hcb_user = {
     days_ago:'日前 (days ago)',
     hours_ago:'時間前 (hours ago)',
     minutes_ago:'分前 (minutes ago)',
-    within_the_last_minute:'within the last minute',
+    within_the_last_minute:'ちょっと前 (within the last minute)',
 
     msg_thankyou:'コメントして頂きありがとうございます！ (Thank you for commenting!)',
     msg_approval:'このコメントは承認されるまで公開されません (this comment is not published until approved)',
