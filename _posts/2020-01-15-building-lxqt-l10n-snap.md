@@ -53,7 +53,7 @@ Lubuntu 18.04 LXQt 0.14 (ppa)
 ソース snapcraft.yaml ファイルは次のリンク先で公開しています。  
 Github : <https://github.com/ito32bit/lxqt-l10n-snap-packaging>
 
-Githubの関連リポジトリが更新(commit)があると、build.snapcraft.ioサイト内で 自動でビルドされます。
+Githubの関連リポジトリに更新(commit)があると、build.snapcraft.ioサイト内で 自動でビルドされます。
 関連リポジトリのリストは、snapcraft.yaml ファイルの partsの `source:` です。  
 
 LXQtの各リポジトリを git clone して、bashスクリプトで翻訳ファイルとデスクトップエントリのファイルを処理しています。
