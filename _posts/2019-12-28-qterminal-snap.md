@@ -1,7 +1,7 @@
 ---
 title: Snap版 Qterminal リリース
 date: 2019-12-28
-updated: 2020-01-10
+updated: 2020-01-19
 categories: Snapリリース
 tags: Snap作成
 ---
@@ -38,12 +38,12 @@ GUIの Ubuntuソフトウエア(gnome-software)やスナップストア(snap-sto
   sudo snap remove --purge qterminal-snap
   sudo snap install --classic --edge qterminal-snap
   ```
-- [ ] ドロップダウン式を起動してもドロップダウンできない。
+- [x] ドロップダウン式を起動してもドロップダウンできない。
 - [X] 端末内から Qtアプリケーションを起動すると問題が起きることがある。  
   原因のひとつは環境変数`QTCHOOSER_NO_GLOBAL_DIR`と思われる。  
   回避策: `export -n QTCHOOSER_NO_GLOBAL_DIR`
 
-私自身も端末は このSnapパッケージ版 Qterminalを日常的に使用していますので、かなり問題は解消してきたと思います。
+私自身も端末エミュレーターは このSnapパッケージ版 Qterminalを日常的に使用していますので、かなり問題は解消してきたと思います。
 
 ## 関連ページ
 
