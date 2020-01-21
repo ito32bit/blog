@@ -16,8 +16,8 @@ type: about
 <small>実は いまだに 2005年発売の古いノートパソコン（32bit）なので Lubuntu 19.10がインストールできません ^^; </small>
 
 2020年 1月　イトウ  
-E-mail: ito32bit+pagesアットマークgmail.com  （アットマーク を @ に変えて下さい）  
 Github: <https://github.com/ito32bit/>  
+E-mail: ito32bit+pagesアットマークgmail.com  （アットマーク を @ に変えて下さい）  
 
 ***
 
