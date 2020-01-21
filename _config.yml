@@ -129,6 +129,7 @@ menu:
   archives: /archives/
   tags: /tags/
   #sitemap: /sitemap.xml
+  sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
