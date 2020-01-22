@@ -19,7 +19,7 @@ type: about
 
 2020年 1月　イトウ  
 Github: <https://github.com/ito32bit/>  
-E-mail: ito32bit+pagesアットマークgmail.com  （アットマーク を @ に変えて下さい）  
+E-mail: ito32bit+blogアットgmail.com  （アット を @ に変えて下さい）  
 
 ***
 
@@ -41,7 +41,7 @@ hcb_user = {
     again: '続けてコメントする / Post another comment',
 /*    rss:'<img src="https://www.htmlcommentbox.com/static/images/feed.png" class="hcb-icon" alt="rss"/> ',
 */
-    rss:'RSS',
+    rss:'コメントのRSS',
     said:'さん発言 / said:',
     prev_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_left.png" class="hcb-icon" title="previous page" alt="[prev]"/>',
     next_page:'<img src="https://www.htmlcommentbox.com/static/images/arrow_right.png" class="hcb-icon" title="next page" alt="[next]"/>',
