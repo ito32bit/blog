@@ -27,7 +27,7 @@ sudo snap install lxqt-l10n-snap --edge
 
 Lubuntu 等は Snapパッケージのインストール前に snapd のインストールが必要です。`sudo apt install snapd`  
 
-関連ページ: [Snap版 LXQt言語パック リリース]({{ site.baseurl }}{% post_url 2020-01-13-lxqt-l10n-snap %})
+Snap版 LXQt言語パックの詳細: [Snap版 LXQt言語パック リリース]({{ site.baseurl }}{% post_url 2020-01-13-lxqt-l10n-snap %})
 
 この方法が 下記の方法に比べて、 簡単に 日本語表示を新しく出来ると思います。  
 
