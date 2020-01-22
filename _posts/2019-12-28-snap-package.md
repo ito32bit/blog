@@ -23,7 +23,8 @@ Snapパッケージを利用するには、snapdがインストールされて�
 
 Ubuntuなどには最初からsnapdがインストールされています。  
 Lubuntuなどは、Snapパッケージのインストール前に、snapdのインストールが必要です。
-Lubuntuの場合、端末で `sudo apt install snapd` とすると snapdを直ぐにインストールできます。
+Lubuntuの場合、端末で `sudo apt install snapd` とすると snapdをインストールできます。
+そしてログインし直すか再起動します。
 
 snapdのインストールの参考ページ(Debian, CentOS, openSUSE Leap, Arch Linux)  
 <https://gihyo.jp/admin/serial/01/ubuntu-recipe/0582?page=2> (日本語)
