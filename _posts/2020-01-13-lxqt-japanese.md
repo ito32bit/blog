@@ -1,7 +1,7 @@
 ---
 title: LXQtを最新の日本語表示にする
 date: 2020-01-13
-updated: 2020-01-13
+updated: 2020-01-21
 categories: LXQtデスクトップ環境
 tags: LXQtデスクトップ環境 LXQt翻訳
 ---
@@ -23,7 +23,7 @@ sudo snap install lxqt-l10n-snap --edge
 /snap/lxqt-l10n-snap/current/setup
 ```
 
-Lubuntu 等は snapd のインストールが必要です。`sudo apt install snapd`  
+Lubuntu 等は Snapパッケージのインストール前に snapd のインストールが必要です。`sudo apt install snapd`  
 
 関連ページ: [Snap版 LXQt言語パック リリース]({{ site.baseurl }}{% post_url 2020-01-13-lxqt-l10n-snap %})
 
