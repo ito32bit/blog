@@ -33,7 +33,7 @@ post:
   wordcount: 記事の単語数
   min2read: 読書時間
   copyright:
-    author: 投稿者
+    author: Author
     link: Post link
     license_title: Copyright Notice
     license_content: 'All articles in this blog are licensed under
