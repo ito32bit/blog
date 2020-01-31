@@ -30,16 +30,16 @@ LXQtデスクトップ環境のスクリーンショット:
 ## 翻訳に参加しているソフトウェア
 
 ### LXQtプロジェクト
-- LXQt デスクトップ環境
-- PCManFM-Qt ファイルマネージャー
-- LXImage-Qt 画像ビューアー
-- Qterminal 端末
-- Qps [^qps] プロセスマネージャー
-- LXQt-Archiver アーカイバー (圧縮・展開)
-- ScreenGrab スクリーンショット
-- Obconf-Qt Openboxの設定ユーティリティー
-- ComptonConf Comptonの設定ユーティリティー
-- pavucontrol-qt PulseAudio音量調節
+- LXQt - デスクトップ環境
+- PCManFM-Qt - ファイルマネージャー
+- LXImage-Qt - 画像ビューアー
+- Qterminal - 端末
+- Qps [^qps] - プロセスマネージャー
+- LXQt-Archiver - アーカイバー (圧縮・展開)
+- ScreenGrab - スクリーンショット
+- Obconf-Qt - Openboxの設定ユーティリティー
+- ComptonConf - Comptonの設定ユーティリティー
+- pavucontrol-qt - PulseAudio音量調節
 
 <https://github.com/ito32bit/lxqt-ja/wiki>  
 
@@ -53,12 +53,12 @@ LXQtデスクトップ環境のスクリーンショット:
 [^k]: Kvantumにはプログラミングに関する専門用語が多く、知識不足のため未翻訳の部分があります。わかる方 いらっしゃいませんか？
 
 ### Lubuntu関連
-- nm-tray NetworkManagerフロントエンド (タスクトレイ)
-- Qlipper クリップボード履歴 (タスクトレイ)
+- nm-tray - NetworkManagerフロントエンド (タスクトレイ)
+- Qlipper - クリップボード履歴 (タスクトレイ)
 
 ### Debian関連
-- lxqt(29) パッケージ説明文  <https://packages.debian.org/bullseye/lxqt>
-- task-lxqt-desktop(3.58) パッケージ説明文 <https://packages.debian.org/bullseye/task-lxqt-desktop>
+- lxqt(29) - パッケージ説明文  <https://packages.debian.org/bullseye/lxqt>
+- task-lxqt-desktop(3.58) - パッケージ説明文 <https://packages.debian.org/bullseye/task-lxqt-desktop>
 
 ## 関連ページ
 
