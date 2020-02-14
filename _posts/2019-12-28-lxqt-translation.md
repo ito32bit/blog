@@ -50,6 +50,8 @@ LXQtデスクトップ環境のスクリーンショット:
 - FeatherPad - テキストエディター
 - Kvantum - Qtテーマ Kvantum スタイルエンジン (表示編集)  [^k]
 
+<https://weblate.lxqt.org/languages/ja/tsujan/>
+
 [^n]: FeatherNotesには まだ未翻訳が多くあります。是非あなたも[翻訳に参加](https://weblate.lxqt.org/projects/tsujan/feathernotes/ja/)して下さい。１個の部分（文字列）からでも始められます。まずは **提案** をしてみましょう。
 
 [^k]: Kvantumには専門用語が多く、知識不足のため未翻訳の部分があります。わかる方 いらっしゃいませんか？
