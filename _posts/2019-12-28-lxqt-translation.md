@@ -46,9 +46,11 @@ LXQtデスクトップ環境のスクリーンショット:
 [^qps]: Qpsにはシステムに関する専門用語が多く、知識不足のため未翻訳の部分があります。
 
 ### LXQt関連の翻訳
-- FeatherNotes - 階層型のメモ管理 (HTML出力機能付き)
+- FeatherNotes - 階層型のメモ管理 (HTML出力機能付き)  [^n]
 - FeatherPad - テキストエディター
-- Kvantum [^k] - Qtテーマ Kvantum スタイルエンジン (表示編集)
+- Kvantum - Qtテーマ Kvantum スタイルエンジン (表示編集)  [^k]
+
+[^n]: FeatherNotesには まだ未翻訳が多くあります。どなたか翻訳に参加して下さい。<https://weblate.lxqt.org/projects/tsujan/feathernotes/ja/>
 
 [^k]: Kvantumには専門用語が多く、知識不足のため未翻訳の部分があります。わかる方 いらっしゃいませんか？
 
