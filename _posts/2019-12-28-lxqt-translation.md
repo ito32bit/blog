@@ -48,7 +48,7 @@ LXQtデスクトップ環境のスクリーンショット:
 ### LXQt関連の翻訳
 - FeatherNotes - 階層型のメモ管理 (HTML出力機能付き)  [^n]
 - FeatherPad - テキストエディター
-- Kvantum - Qtテーマ Kvantum スタイルエンジン (表示編集)  [^k]
+- Kvantum - Qtテーマ Kvantum スタイルエンジン (表示・編集)  [^k]
 
 <https://weblate.lxqt.org/languages/ja/tsujan/>
 
