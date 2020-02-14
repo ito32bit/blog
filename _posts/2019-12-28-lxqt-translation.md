@@ -47,12 +47,12 @@ LXQtデスクトップ環境のスクリーンショット:
 
 ### LXQt関連の翻訳
 - FeatherNotes - 階層型のメモ管理 (HTML出力機能付き)
-- FeatherPad- テキストエディター
+- FeatherPad - テキストエディター
 - Kvantum [^k] - Qtテーマ Kvantum スタイルエンジン (表示編集)
 
 [^k]: Kvantumには専門用語が多く、知識不足のため未翻訳の部分があります。わかる方 いらっしゃいませんか？
 
-### Lubuntu関連の翻訳
+### Lubuntu(18.10以降)関連の翻訳
 - nm-tray - NetworkManagerフロントエンド (タスクトレイ)
 - Qlipper - クリップボード履歴 (タスクトレイ)
 
