@@ -8,7 +8,7 @@ tags: PCManFM-Qt トラブルシューティング Debian
 環境により管理者権限 (Root-instance) で PCManFM-Qtが実行できないことがあります。  
 PCManFM-Qtは、LXQtデスクトップ環境のファイルマネージャーですが、LXQt以外の環境でも使用できます。
 また Live DVD(USB) 環境で使用することもあります。  
-ツールメニューの「rootで開く」（rootとして開く）は、管理者権限で PCManFM-Qtを起動して、GUIでファイル操作ができ大変便利です。  
+ツールメニューの「rootで開く」（ここをrootとして開く）は、管理者権限で PCManFM-Qtを起動して、GUIでファイル操作ができ大変便利です。  
 
 PCManFM-Qtが rootで開かない時は、次の方法で改善する場合があります。
 
