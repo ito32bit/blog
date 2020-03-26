@@ -1,7 +1,7 @@
 ---
 title: Snap版 Qterminal リリース
 date: 2019-12-28
-updated: 2020-01-19
+updated: 2020-03-26
 categories: Snapリリース
 tags: Snap作成
 ---
@@ -29,7 +29,7 @@ GUIの Ubuntuソフトウエア(gnome-software)やスナップストア(snap-sto
 
 ## 既知の問題
 
-※チェックされている項目は修正して Edgeチャンネルへ リリース済みです。
+※チェックされている項目は、修正して Edgeチャンネルへ リリース済みです。
 
 - [ ] バージョン番号が「0.14.1」と表示される。実際は開発中の最新の状態です。
 - [ ] 更新後(refresh)に起動できなくなる。(バスエラー)  
@@ -42,6 +42,7 @@ GUIの Ubuntuソフトウエア(gnome-software)やスナップストア(snap-sto
 - [X] 端末内から Qtアプリケーションを起動すると問題が起きることがある。  
   原因のひとつは環境変数`QTCHOOSER_NO_GLOBAL_DIR`と思われる。  
   回避策: `export -n QTCHOOSER_NO_GLOBAL_DIR`
+- [ ] Fcitx以外で日本語入力できない。
 
 私自身も端末エミュレーターは このSnapパッケージ版 Qterminalを日常的に使用していますので、かなり問題は解消してきたと思います。
 
