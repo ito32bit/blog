@@ -1,11 +1,33 @@
 ---
 title: Snapパッケージのトラブルシューティング
 date: 2019-12-28 00:00:00
+updated: 2020-08-16
 categories: Snap説明
 tags: Snap作成 トラブルシューティング
 ---
 
-Snapのインストール時や更新時にエラーが出ることがあります。その時の対応策です。
+Snapのインストール時や更新後にエラーが出ることがあります。その時の対応策です。
+
+## snapが 起動しない エラー Fontconfig warning
+
+エラー例:  
+```bash
+$ qterminal-snap
+Fontconfig warning: FcPattern object weight does not accept value [40 210)
+Segmentation fault (コアダンプ)
+```
+
+この様なエラーが出た場合は次のコマンドを試してみます。  
+```bash
+fc-cache -r
+sudo fc-cache -r
+```
+
+これで改善しない場合は次のコマンドを試してみます。  
+```bash
+rm ~/.cache/fontconfig/*
+sudo rm /var/cache/fontconfig/*
+```
 
 ## Snapが 更新後(refresh)、最初の起動でエラーが出る
 
@@ -42,7 +64,7 @@ sudo snap install スナップ名
 
 関連: <https://bugs.launchpad.net/snapd/+bug/1844496>  
 
-## snapコマンドが 全て エラーになる
+## snapコマンドが エラー cannot communicate with server
 
 エラー例:  
 ```bash
