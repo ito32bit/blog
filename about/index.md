@@ -16,6 +16,9 @@ type: about
 2019年春からは、Ubuntu 18.04に 軽量な LXQtをインストールして使用しています。  
 Ubuntu 20.04 では 32bit用がなくなり、それから Debianを使用しています。
 
+LXQtを日本語表示させたいと思い、翻訳をやっています。
+英語は少ししか分からないので英和辞典が頼りです。
+
 2020年 11月　イトウ  
 Github: <https://github.com/ito32bit/>  
 E-mail: ito32bit+blogアットgmail.com  （アット を @ に変えて下さい）  
