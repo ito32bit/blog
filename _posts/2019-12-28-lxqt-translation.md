@@ -1,7 +1,7 @@
 ---
 title: LXQtデスクトップ環境の翻訳
 date: 2019-12-28
-updated: 2020-01-12
+updated: 2020-11-05
 categories: 翻訳
 tags: LXQt翻訳 LXQtデスクトップ環境 Lubuntu Debian
 ---
@@ -17,7 +17,7 @@ tags: LXQt翻訳 LXQtデスクトップ環境 Lubuntu Debian
 多くの人が、パッと見て 考えたり悩んだりせずに 軽快に 操作できるような日本語の表示にしたいと思っています。
 
 LXQtを使用していて、日本語で気になる部分もあるかと思います。その時は、遠慮なくコメント下さい。ここのページでも Weblateでも Githubでも、どちらへのコメントでも構いません。
-[Weblate](https://weblate.lxqt.org/engage/lxqt/) は参加するのも簡単です。
+[Weblate](https://translate.lxqt-project.org/) は参加するのも簡単です。
 
 **2020年１月**  
 技術評論社サイトの いくやさんの記事に載りました。  
@@ -50,9 +50,7 @@ LXQtデスクトップ環境のスクリーンショット:
 - FeatherPad - テキストエディター
 - Kvantum - Qtテーマ Kvantum スタイルエンジン (表示・編集)  [^k]
 
-<https://weblate.lxqt.org/languages/ja/tsujan/>
-
-[^n]: FeatherNotesには まだ未翻訳が多くあります。是非あなたも[翻訳に参加](https://weblate.lxqt.org/projects/tsujan/feathernotes/ja/)して下さい。１個の部分（文字列）からでも始められます。まずは **提案** をしてみましょう。
+[^n]: FeatherNotesには まだ未翻訳が多くあります。是非あなたも翻訳に参加して下さい。１個の部分（文字列）からでも始められます。まずは **提案** をしてみましょう。
 
 [^k]: Kvantumには専門用語が多く、知識不足のため未翻訳の部分があります。わかる方 いらっしゃいませんか？
 
@@ -68,5 +66,6 @@ LXQtデスクトップ環境のスクリーンショット:
 
 - [LXQtを最新の日本語表示にする]({{ site.baseurl }}{% post_url 2020-01-13-lxqt-japanese %})
 - [Snap版 LXQt言語パック リリース]({{ site.baseurl }}{% post_url 2020-01-13-lxqt-l10n-snap %})
+- LXQt 翻訳サイト <https://translate.lxqt-project.org/>
 
 ***
