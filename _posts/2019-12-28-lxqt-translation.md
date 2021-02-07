@@ -1,13 +1,13 @@
 ---
 title: LXQtデスクトップ環境の翻訳
 date: 2019-12-28
-updated: 2020-11-05
+updated: 2021-01-31
 categories: 翻訳
 tags: LXQt翻訳 LXQtデスクトップ環境 Lubuntu Debian
 ---
 
 私は、LXQtデスクトップ環境の翻訳をしています。  
-この技術評論社の記事を読んだのを きっかけに翻訳を始めました。
+次の技術評論社の記事を読んだのを きっかけに翻訳を始めました。
 
 第552回　デスクトップ環境の2018-2019年  
 <https://gihyo.jp/admin/serial/01/ubuntu-recipe/0552?page=2>
@@ -16,8 +16,11 @@ tags: LXQt翻訳 LXQtデスクトップ環境 Lubuntu Debian
 既に翻訳されている部分についても、より良くするために少しずつ変更しています。  
 多くの人が、パッと見て 考えたり悩んだりせずに 軽快に 操作できるような日本語の表示にしたいと思っています。
 
-LXQtを使用していて、日本語で気になる部分もあるかと思います。その時は、遠慮なくコメント下さい。ここのページでも Weblateでも Githubでも、どちらへのコメントでも構いません。
-[Weblate](https://translate.lxqt-project.org/) は参加するのも簡単です。
+LXQtを使用していて、日本語で気になる部分もあるかと思います。その時は、遠慮なくコメント（提案）して下さい。
+[Weblate](https://translate.lxqt-project.org/)でも Github [Discussions](https://github.com/ito32bit/lxqt-ja/discussions) でも、どちらへのコメントでも構いません。
+
+Weblate は参加（登録）するのも簡単です。
+翻訳の「提案」は登録無しで出来ます。
 
 **2020年１月**  
 技術評論社サイトの いくやさんの記事に載りました。  
@@ -61,6 +64,9 @@ LXQtデスクトップ環境のスクリーンショット:
 ### Debian関連の翻訳
 - lxqt(29) - パッケージ説明文  <https://packages.debian.org/bullseye/lxqt>
 - task-lxqt-desktop(3.58) - パッケージ説明文 <https://packages.debian.org/bullseye/task-lxqt-desktop>
+- Meteo-qt - lxqtメタパッケージに含まれている 天気予報（気象情報）アプリ[^me]
+
+[^me]: Meteo-qtは気象の専門用語に詳しくないため未翻訳の部分や直訳のため変な日本語があります。また、アプリのバグか私の理解不足か、風力の表示に変な部分があります。
 
 ## 関連ページ
 

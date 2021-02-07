@@ -5,10 +5,10 @@
 
 # Site
 title: Ubuntuまちがいさがし
-subtitle: Linux, LXQt, Snap, 日本語翻訳など
+subtitle: ※サイト再編中のためリンク切れがあります。
 description: |
   LXQt ユーザーです。
-  LXQt翻訳や Snapを作成しています。
+  LXQtの翻訳をしています。
 author: イトウ
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: ja
@@ -155,9 +155,10 @@ menu_icons:
 # ---------------------------------------------------------------
 
 # Schemes
-scheme: Muse
+##scheme: Muse
 #scheme: Mist
 #scheme: Pisces
+scheme: Pisces
 
 
 # ---------------------------------------------------------------
@@ -391,8 +392,8 @@ han: false
 
 # Disqus
 disqus:
-  #enable: false
-  enable: true
+  enable: false
+  ##enable: true
   shortname: ito32bit-github-io
   count: true
   # hide comments (visitors need to click to load the comments)
