@@ -438,10 +438,6 @@ changyan:
   appid:
   appkey:
 
-# Support for youyan comments system.
-# You can get your uid from http://www.uyan.cc
-#youyan_uid: your uid
-
 # Support for LiveRe comments system.
 # You can get your uid from https://livere.com/insight/myCode (General web site)
 #livere_uid: your uid
@@ -455,16 +451,7 @@ gitalk:
   owner: # colingpt
   admin: # colingpt
 
-# Baidu Share
-# Available value:
-#    button | slide
-# Warning: Baidu Share does not support https.
-#baidushare:
-##  type: button
-
 # Share
-#jiathis:
-# Warning: JiaThis does not support https.
 #add_this_id:
 
 # Share
