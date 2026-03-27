@@ -1,56 +1,63 @@
-# Dependabot セキュリティ警告への改善提案
+# Dependabot セキュリティ警告への改善提案（更新版）
 
 > 対象: `https://github.com/ito32bit/blog/security/dependabot`
 
-このリポジトリは Jekyll + `github-pages` gem を利用しています。`github-pages` は依存関係を幅広く固定するため、**直接依存の更新だけでは警告が解消しない**ケースがあります。
+## 0. いま起きている問題の整理
 
-## 1. まず実施すること（即効性あり）
+Dependabot の警告が残る主因は、次の 2 つに分かれます。
 
-1. **Dependabot を Bundler + GitHub Actions で有効化**
-   - 本変更で `.github/dependabot.yml` を追加済み。
-   - 毎週更新 PR を作成し、セキュリティ更新の取り込みを定常化します。
+1. **Bundler 依存（`Gemfile` / `Gemfile.lock`）**
+   - `github-pages` は依存を広く固定するため、修正に lockfile 運用が必須です。
+2. **同梱（vendored）JS 依存（`assets/lib/`）**
+   - Dependabot では直接監視されず、古いライブラリが放置されやすいです。
 
-2. **`Gemfile.lock` をリポジトリ管理に追加**
-   - 現状 lockfile が無いため、環境ごとに異なる解決結果になります。
-   - Dependabot の修正 PR も lockfile ありの方が再現性が高くなります。
+## 1. 今回の改善（運用を強化）
 
-3. **高優先度アラート（Critical/High）から順に対応**
-   - Dependabot 画面で CVE/GHSA ごとに、
-     - `direct dependency`（直接依存）
-     - `transitive dependency`（間接依存）
-     を分類して着手します。
+### 1-1. Dependabot 設定を強化
 
-## 2. 根本対策（Medium 以上を減らす）
+- Bundler チェックを **weekly → daily** に変更
+- `bundler-security` グループを追加し、**security updates を最優先で自動集約**
+- `rebase-strategy: auto` を追加して、競合で止まりにくくする
+- `target-branch: main` を明示して更新先を固定
 
-1. **`github-pages` のメジャー追従**
-   - `~> 232` のままだと取り込めない修正が出る可能性があります。
-   - `Gemfile.lock` 作成後、`bundle update github-pages` で更新可能範囲を確認し、
-     CI でビルド検証を通して段階的に上げる運用にします。
+### 1-2. PR 時点で脆弱依存をブロック
 
-2. **古い同梱 JS ライブラリの棚卸し**
-   - `assets/lib/` 配下に旧版ライブラリが多数存在します（jQuery/fancybox/ua-parser など）。
-   - これらは Dependabot の監視対象外になりやすいため、
-     npm 管理へ移行 or CDN + SRI へ置換して追従性を上げるのが有効です。
+- `.github/workflows/dependency-review.yml` を追加
+- `actions/dependency-review-action@v4` で、**High 以上が新規追加された PR を fail**
 
-3. **脆弱性スキャンの自動化**
-   - GitHub Advanced Security 利用時は CodeQL/Dependency Review を必須化。
-   - PR マージ条件に「High 以上の新規脆弱性なし」を設定します。
+## 2. 直近で実施すべき対応（アラート解消用）
 
-## 3. 実施順（推奨ロードマップ）
+1. **`Gemfile.lock` を追加して Dependabot 修正 PR を有効化**
+   - lockfile がないと脆弱性修正の再現性が低く、Dependabot の提案精度も落ちます。
 
-- Week 1:
-  - Dependabot 設定導入（今回）
-  - `Gemfile.lock` を作成・コミット
-  - Critical/High を 0 にする
-- Week 2:
-  - `github-pages` 更新の検証
-  - 影響の少ない JS ライブラリから更新方式を統一
-- Week 3 以降:
-  - 月次で Medium/Low の削減
-  - スキャン結果を issue 化して SLA 管理
+2. **Dependabot 画面で Critical / High を先に解消**
+   - 各アラートを `direct` / `transitive` に分類し、次の順で対応。
+     - A: direct dependency の修正PRをマージ
+     - B: transitive は親 gem（多くは `github-pages` 周辺）更新で吸収
 
-## 4. 期待効果
+3. **`assets/lib/` の旧版 JS を段階的に撤去**
+   - 現在確認できる旧版例:
+     - jQuery `v2.1.3`
+     - fancyBox `2.1.5`
+     - UAParser.js `0.7.9`
+     - Velocity `1.2.2`
+   - これらは Dependabot の対象外になりやすいため、
+     npm 管理または CDN + SRI へ移行して継続更新可能にします。
 
-- セキュリティ修正 PR の定期化（属人化防止）
-- 依存更新の再現性向上（lockfile 運用）
-- 将来的な警告再発の抑制（更新運用の仕組み化）
+## 3. 推奨ロードマップ
+
+- **Day 1–2**
+  - `Gemfile.lock` を生成・コミット
+  - Dependabot の security PR を優先マージ
+- **Week 1**
+  - Critical / High を 0 件化
+  - dependency-review を Required Check に設定
+- **Week 2–3**
+  - `assets/lib/` の旧版 JS を更新方式ごと移行（npm or CDN+SRI）
+- **継続運用**
+  - 月次で Medium/Low を削減し、例外は issue で期限管理
+
+## 4. 補足
+
+この環境では `bundle lock` 実行時に `rubygems.org` へのアクセスが `403 Forbidden` となるため、
+lockfile 作成は CI またはローカル環境での実行が前提になります。
