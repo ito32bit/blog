@@ -1,0 +1,40 @@
+name: Update Gemfile.lock
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-lockfile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          bundler-cache: false
+
+      - name: Generate lockfile
+        run: bundle lock
+
+      - name: Create PR if lockfile changed
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: chore/update-gemfile-lock
+          commit-message: "chore(deps): update Gemfile.lock"
+          title: "chore(deps): update Gemfile.lock"
+          body: |
+            Automated Gemfile.lock update.
+
+            - Generated with `bundle lock`
+            - Review and merge to keep Bundler dependency graph current
+          labels: |
+            dependencies
+            security
