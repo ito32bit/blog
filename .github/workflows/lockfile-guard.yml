@@ -4,9 +4,15 @@ on:
   pull_request:
     branches:
       - main
+    paths:
+      - Gemfile
+      - Gemfile.lock
   push:
     branches:
       - main
+    paths:
+      - Gemfile
+      - Gemfile.lock
 
 permissions:
   contents: read
@@ -16,10 +22,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Ensure Gemfile.lock exists
+      - name: Ensure Gemfile.lock exists when Ruby deps change
         run: |
-          if [ ! -f Gemfile.lock ]; then
+          if [ -f Gemfile ] && [ ! -f Gemfile.lock ]; then
             echo "Gemfile.lock is missing."
-            echo "Dependabot security fixes for Bundler are not reproducible without lockfile."
+            echo "Please commit Gemfile.lock whenever Gemfile dependencies are managed."
             exit 1
           fi
