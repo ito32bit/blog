@@ -57,3 +57,9 @@ git commit -m "chore(deps): add Gemfile.lock for reproducible security updates"
 - Security タブで該当 GHSA/CVE が解消されたことを確認
 
 > 補足: `github-pages` 依存制約で解決不能な場合は、`github-pages` の更新PRを先に取り込む必要があります。
+
+### トラブルシュート: `create-pull-request@v6` 警告が消えない場合
+
+- GitHub の **Re-run jobs** は、失敗時点のコミット内容を再実行します。
+- そのため、workflow を `@v7` に更新済みでも、古い run を再実行すると `@v6` 警告が残ることがあります。
+- 対処: **Actions → Update Gemfile.lock → Run workflow** から「新規実行」してください（`main` の最新コミットで実行されます）。
