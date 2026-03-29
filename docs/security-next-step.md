@@ -40,3 +40,20 @@ git commit -m "chore(deps): add Gemfile.lock for reproducible security updates"
 - `Gemfile.lock` が main に存在
 - Dependabot Critical / High が 0
 - dependency-review + lockfile-guard が Required Check
+
+
+## 6. 今回のアラート（2026-03-29）への即応
+
+受信した digest に基づき、次の順に対応してください。
+
+1. `nokogiri`（Critical を含むため最優先）
+2. `activesupport`
+3. `commonmarker`
+
+手順（GitHub Actions の `Update Gemfile.lock` を手動実行）:
+
+- `gems` 入力に `nokogiri activesupport commonmarker` を指定
+- 自動作成された PR を確認し、テスト通過後にマージ
+- Security タブで該当 GHSA/CVE が解消されたことを確認
+
+> 補足: `github-pages` 依存制約で解決不能な場合は、`github-pages` の更新PRを先に取り込む必要があります。

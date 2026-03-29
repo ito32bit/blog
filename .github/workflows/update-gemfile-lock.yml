@@ -2,6 +2,11 @@ name: Update Gemfile.lock
 
 on:
   workflow_dispatch:
+    inputs:
+      gems:
+        description: "Space-separated gems to update conservatively (e.g. 'nokogiri activesupport commonmarker')"
+        required: false
+        default: "nokogiri activesupport commonmarker"
   schedule:
     - cron: "0 4 * * 1"
 
@@ -21,6 +26,10 @@ jobs:
         with:
           bundler-cache: false
 
+      - name: Update selected gems conservatively
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.gems != '' }}
+        run: bundle update --conservative ${{ inputs.gems }}
+
       - name: Generate lockfile
         run: bundle lock
 
@@ -34,6 +43,7 @@ jobs:
             Automated Gemfile.lock update.
 
             - Generated with `bundle lock`
+            - For manual dispatch, selected gems are updated via `bundle update --conservative`
             - Review and merge to keep Bundler dependency graph current
           labels: |
             dependencies
