@@ -1,0 +1,31 @@
+name: Lockfile Guard
+
+on:
+  pull_request:
+    branches:
+      - main
+    paths:
+      - Gemfile
+      - Gemfile.lock
+  push:
+    branches:
+      - main
+    paths:
+      - Gemfile
+      - Gemfile.lock
+
+permissions:
+  contents: read
+
+jobs:
+  gemfile-lock-required:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Ensure Gemfile.lock exists when Ruby deps change
+        run: |
+          if [ -f Gemfile ] && [ ! -f Gemfile.lock ]; then
+            echo "Gemfile.lock is missing."
+            echo "Please commit Gemfile.lock whenever Gemfile dependencies are managed."
+            exit 1
+          fi
