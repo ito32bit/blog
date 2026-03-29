@@ -47,7 +47,7 @@ jobs:
         run: bundle lock
 
       - name: Create PR if lockfile changed
-        uses: peter-evans/create-pull-request@v7
+        uses: peter-evans/create-pull-request@v8
         with:
           branch: chore/update-gemfile-lock
           commit-message: "chore(deps): update Gemfile.lock"
