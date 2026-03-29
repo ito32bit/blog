@@ -52,7 +52,7 @@ git commit -m "chore(deps): add Gemfile.lock for reproducible security updates"
 
 手順（GitHub Actions の `Update Gemfile.lock` を手動実行）:
 
-- `gems` 入力に `nokogiri activesupport commonmarker` を指定
+- `gems` 入力に `nokogiri activesupport commonmarker` を指定（workflow が1件ずつ更新を試行）
 - 自動作成された PR を確認し、テスト通過後にマージ
 - Security タブで該当 GHSA/CVE が解消されたことを確認
 
