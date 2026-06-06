@@ -1,0 +1,41 @@
+name: Security Checks
+
+on:
+  pull_request:
+    branches:
+      - master
+
+permissions:
+  contents: read
+
+jobs:
+  dependency-review:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Dependency Review
+        uses: actions/dependency-review-action@v5
+        with:
+          fail-on-severity: high
+          comment-summary-in-pr: always
+
+  gemfile-lock-required:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+      - name: Check Gemfile.lock when Ruby dependencies change
+        run: |
+          git diff --name-only "${{ github.event.pull_request.base.sha }}" "${{ github.event.pull_request.head.sha }}" > changed-files.txt
+          if ! grep -Eq '^(Gemfile|Gemfile\.lock)$' changed-files.txt; then
+            echo "No Ruby dependency files changed; lockfile guard passes."
+            exit 0
+          fi
+          if [ -f Gemfile ] && [ ! -f Gemfile.lock ]; then
+            echo "Gemfile.lock is missing."
+            echo "Please commit Gemfile.lock whenever Gemfile dependencies are changed."
+            exit 1
+          fi
