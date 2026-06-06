@@ -3,13 +3,13 @@ name: Lockfile Guard
 on:
   pull_request:
     branches:
-      - main
+      - master
     paths:
       - Gemfile
       - Gemfile.lock
   push:
     branches:
-      - main
+      - master
     paths:
       - Gemfile
       - Gemfile.lock
