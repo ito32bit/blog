@@ -37,7 +37,7 @@ git commit -m "chore(deps): add Gemfile.lock for reproducible security updates"
 
 ## 5. 期待する完了条件
 
-- `Gemfile.lock` が main に存在
+- `Gemfile.lock` が master に存在
 - Dependabot Critical / High が 0
 - dependency-review + lockfile-guard が Required Check
 
@@ -62,4 +62,4 @@ git commit -m "chore(deps): add Gemfile.lock for reproducible security updates"
 
 - GitHub の **Re-run jobs** は、失敗時点のコミット内容を再実行します。
 - そのため、workflow を `@v7` に更新済みでも、古い run を再実行すると `@v6` 警告が残ることがあります。
-- 対処: **Actions → Update Gemfile.lock → Run workflow** から「新規実行」してください（`main` の最新コミットで実行されます）。
+- 対処: **Actions → Update Gemfile.lock → Run workflow** から「新規実行」してください（`master` の最新コミットで実行されます）。
