@@ -1,0 +1,63 @@
+name: Update Gemfile.lock
+
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+on:
+  workflow_dispatch:
+    inputs:
+      gems:
+        description: "Space-separated gems to update conservatively (e.g. 'nokogiri activesupport commonmarker')"
+        required: false
+        default: "nokogiri activesupport commonmarker"
+  schedule:
+    - cron: "0 4 * * 1"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  update-lockfile:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2'
+          bundler-cache: false
+
+      - name: Ensure base lockfile exists
+        run: bundle lock
+
+      - name: Update selected gems one-by-one
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.gems != '' }}
+        run: |
+          for gem in ${{ inputs.gems }}; do
+            echo "Trying to update ${gem} ..."
+            if ! bundle lock --update "${gem}"; then
+              echo "Skipping ${gem}: could not update under current constraints"
+            fi
+          done
+
+      - name: Normalize lockfile after updates
+        run: bundle lock
+
+      - name: Create PR if lockfile changed
+        uses: peter-evans/create-pull-request@v8
+        with:
+          branch: chore/update-gemfile-lock
+          commit-message: "chore(deps): update Gemfile.lock"
+          title: "chore(deps): update Gemfile.lock"
+          body: |
+            Automated Gemfile.lock update.
+
+            - Generated with `bundle lock`
+            - For manual dispatch, selected gems are attempted one-by-one via `bundle lock --update <gem>`
+            - Review and merge to keep Bundler dependency graph current
+          labels: |
+            dependencies
+            security
